@@ -32,6 +32,10 @@ bank-app-review-analysis/
 ├── data
 ├────raw_reviews.csv
 ├────clean_reviews.csv
+├── task-2_analysis
+├────preprocessing_sentiment.py
+├────sentiment_analysis.py
+├────thematic_analysis.py
 ├── requirements.txt
 ├── .gitignore
 └── README.md
