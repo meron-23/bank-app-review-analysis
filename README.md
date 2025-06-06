@@ -26,10 +26,12 @@ Scraping and preprocessing reviews from Google Play for three major Ethiopian ba
 ```python
 bank-app-review-analysis/
 │
-├── scraper.py
-├── preprocess.py
-├── raw_reviews.csv
-├── clean_reviews.csv
+├── scripts
+├────scraper.py
+├────preprocess.py
+├── data
+├────raw_reviews.csv
+├────clean_reviews.csv
 ├── requirements.txt
 ├── .gitignore
 └── README.md
