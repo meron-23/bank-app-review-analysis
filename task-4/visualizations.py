@@ -8,7 +8,7 @@ import os
 os.makedirs("./visuals", exist_ok=True)
 
 # Load your processed dataset
-df = pd.read_csv('./data/sentiment_results.csv')  # Adjust path if needed
+df = pd.read_csv('../data/sentiment_results.csv')  # Adjust path if needed
 
 # --------- 1. Sentiment Distribution per Bank ---------
 plt.figure(figsize=(10,6))
@@ -33,7 +33,7 @@ plt.savefig('./visuals/rating_distribution.png')
 plt.close()
 
 # --------- 3. Top Keywords per Bank ---------
-keywords_df = pd.read_csv('./data/top_keywords_by_bank.csv')  # assumes you created this earlier
+keywords_df = pd.read_csv('../data/top_keywords_per_bank.csv')  # assumes you created this earlier
 
 for bank in keywords_df['bank'].unique():
     plt.figure(figsize=(10,6))
